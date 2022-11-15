@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Untitled-1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="m1">
+        <form action="" method="post" name="inscription" onsubmit="valide()">
+            <h4>veuillez remplir la formulaire</h4>
+
+            <label for="nom">nom</label><br>
+            <input class="m2" type="text" id="nom" name="nom"><br><br>
+    
+            <label for="prenom">prenom</label><br>
+            <input class="m2" type="text" id="prenom" name="prenom"><br><br>
+    
+            <label for="number">num dossier</label><br>
+            <input class="m2" type="number" id="numero" name="num dossier"><br><br>
+    
+            <input type="submit" name="enregistrer" id="" onclick="valide()">
+            <input type="reset" name="annuler">
+        </form>
+  <script>
+      var prenom = document.querySelector("#prenom");
+var nom = document.querySelector("#nom");
+function valide(){
+    var p=document.forms["inscription"]["prenom"].value;
+    if(p==""){
+        alert("vous dever saisir le Prenom");
+        return false;
+    }
+    var p=document.forms["inscription"]["nom"].value;
+    if(p==""){
+        alert("vous dever saisir le nom");
+        return false;
+    }
+    var p=document.forms["inscription"]["numero"].value;
+    if(p==""){
+        alert("vous dever saisir votre numero de dossier");
+        return false;
+    }
+    alert("bienvenue "+prenom.value+" "+nom.value+" "+"votre certificat n'est pas disponible pour le moment");
+}
+  </script>
+    </div>
+</body>
+</html>

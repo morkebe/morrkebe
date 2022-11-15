@@ -1,0 +1,211 @@
+/* PAGE1 */
+body{
+    overflow: auto;
+    color: white;
+    font-size: 1rem;
+    height: 600px;
+    background-image: url(IMG-9421.jpg);
+}
+header{
+    background-image: url(IMG-9421.jpg);
+    overflow: auto;
+    color: white;
+    background-size: cover;
+    height: 600px;
+    padding-left: 60px;
+}
+nav{
+    margin-left: 200px;
+    
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul ul{
+    position: absolute;
+    top: 30px;
+    display: none;
+    background-color: white;
+}
+p.bar{
+    border-bottom: 0.5px solid black;
+    margin-top: auto;
+    width: 250px;
+}
+nav ul ul li{
+    color:black;
+    width: 300px;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+}
+nav ul li:hover ul{
+    display: inline-block;
+    color: rgb(49, 36, 230);
+}
+marquee{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    height: 400px;
+    padding-top: 20px;
+}
+p.s11{
+    font-size: 25px;
+}
+p.s12{
+    font-size: 50px;
+}
+p.s14{
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto 0 auto;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+}
+p.s14:hover{
+    background-color: white;
+    color: blue;
+}
+div.fixe{
+    position: sticky;
+    top:0px;
+}
+h3.ufrset{
+    font-size: 35px;
+    color: white;
+}
+.ufr{
+    display: flex;
+}
+ul{
+    display: flex;
+   margin-left: 0px;
+
+}
+li.barre ul li a{
+    color: black;
+}
+li.barre a{
+    text-decoration: none;
+    color: white;
+    visibility: visible;
+    
+}
+
+li.barre{
+    margin-left: 25px;
+    font-size: 25px;
+    color: rgb(223, 13, 195);
+    list-style: none;
+}
+li.barre:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+    border-bottom: 3px solid red;
+    height: 0px;
+    width: 100%;
+}
+li.fil{
+    list-style: none;
+} 
+body{
+    font-display: 1rem;
+    text-align: center;
+    width: 1350px;
+    height: 100px;
+}
+.f1{
+    background-color: blue;
+    width: 1350px;
+    height: 270px;
+}
+#footer{
+    margin-top: 50px;
+}
+.lolll{
+    transition: transform 0.3 box-shadow 0.3;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    border: 1px solid transparent;
+    display: flex;
+    box-shadow: 2px 3px blue;
+    justify-content: space-between;
+}
+.lol{
+    text-align: center;
+    display: flex;
+    animation-duration: 80s;
+    animation-name: UIDT;
+    align-items: center;
+}
+#lo{
+    overflow: auto;
+    width: 1500px;
+    align-items: center;
+}
+@keyframes UIDT{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-640px);
+    }
+    50%{
+        transform: translateX(-1280px);
+    }
+    75%{
+        transform: translateX(-1920px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+h5{
+    font-size: 2rem;
+}
+button{
+    border: 1;
+}
+.cv{
+    height: 30px;
+    padding: 10px;
+}
+.cv:hover{
+    background-color: rgb(205, 96, 96);
+}
+.m4{
+    box-shadow: 2px 3px blue;
+    border-radius: 10px;
+    width: 230px;
+    height: 20px;
+}
+.form input {
+    border-radius: 10px;
+    box-shadow: 2px 3px blue;
+    width: 400px;
+    height: 25px;
+}
+table{
+    border: 2px solid rgb(255, 245, 245);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 600px;
+}
+th{
+    border: 2px solid rgb(241, 241, 241);
+    text-align: center;
+}
+td{
+    border: 2px solid rgb(253, 252, 252);
+    text-align: center;
+}
